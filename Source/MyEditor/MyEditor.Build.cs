@@ -8,7 +8,7 @@ public class MyEditor : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "AssetTools", "AssetRegistry", "UnrealEd" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
